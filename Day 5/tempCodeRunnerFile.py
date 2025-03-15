@@ -1,0 +1,5 @@
+print("Welcome to the pypassword genereator")
+# l = int(input("How many lowercase letters ? : "))
+# u = int(input("How many uppercase letters ? : "))
+# s = int(input("How manny symbols ? : "))
+# n = int(inout("how many numbers ? : "))
