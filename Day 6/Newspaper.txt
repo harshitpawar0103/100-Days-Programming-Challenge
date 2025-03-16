@@ -1,0 +1,27 @@
+def up_three_steps():
+    for i in range(3):
+        turn_left()
+        move()
+        turn_right()
+        move()
+        move()
+
+def down_three_steps():
+    for i in range(3):
+        move()
+        move()
+        turn_left()
+        move()
+        turn_right()
+
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+    
+take()
+up_three_steps()
+put()
+turn_left()
+turn_left()
+down_three_steps()
