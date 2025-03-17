@@ -1,4 +1,10 @@
-while ch != 'z':
-    ch = chr(n)
-    print(f"{ch}  ",end = "")
-    n+=1
+def convert_cipher(text,shift):
+    cipher_text = "".join(
+        chr(ord(char)+shift) if char.isalnum() else char for char in text
+    )
+
+
+def decode_cipher(text,shift):
+    decoded_text = "".join(
+        chr(ord(char)-shift) if char.isalnum() else char for char in text
+    )
