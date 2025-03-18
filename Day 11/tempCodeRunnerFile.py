@@ -1,0 +1,1 @@
+p_cards.pop(5)
